@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.TicketReservationController",
+    "Method": "CreateEvent",
+    "RelativePath": "api/reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TicketReservationSystem.Entities.Event",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.TicketReservationController",
+    "Method": "GetEvent",
+    "RelativePath": "api/reservation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
