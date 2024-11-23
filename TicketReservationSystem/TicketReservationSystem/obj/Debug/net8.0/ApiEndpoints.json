@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "TicketReservationSystem.Entities.Event",
+        "Type": "TicketReservationSystem.DTO.CreateEventDto",
         "IsRequired": true
       }
     ],
@@ -17,8 +17,8 @@
   },
   {
     "ContainingType": "TicketReservationSystem.Controllers.TicketReservationController",
-    "Method": "GetEvent",
-    "RelativePath": "api/reservation",
+    "Method": "GetEventDetails",
+    "RelativePath": "api/reservation/{id}/eventdetails",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -26,9 +26,45 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "TicketReservationSystem.DTO.EventDetailsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.TicketReservationController",
+    "Method": "GetSeatsDetails",
+    "RelativePath": "api/reservation/{id}/seats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.ICollection\u00601[[TicketReservationSystem.DTO.SeatDTO, TicketReservationSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

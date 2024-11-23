@@ -2,7 +2,7 @@
 {
     public class Seat
     {
-        public int SeatId { get; set; }
+        public int Id { get; set; }
         public int EventId {  get; set; }
         public int Row { get; set; }
         public int SeatNumber { get; set; }
