@@ -4,7 +4,7 @@ namespace TicketReservationSystem.Services.Interfaces
 {
     public interface IEventService
     {
-        void CreateEventWithGeneratedSeats(CreateEventDto eventDto);
+        void CreateEventWithGeneratedSeats(EventCreateDto eventDto);
         EventDetailsDTO GetEventDetails(int id);
         ICollection<SeatDTO> GetSeats(int id);
     }

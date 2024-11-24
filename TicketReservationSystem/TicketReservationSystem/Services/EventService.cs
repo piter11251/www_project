@@ -14,7 +14,7 @@ namespace TicketReservationSystem.Services
         {
             _context = ticketSystemDbContext;
         }
-        public void CreateEventWithGeneratedSeats(CreateEventDto eventDto)
+        public void CreateEventWithGeneratedSeats(EventCreateDto eventDto)
         {
 
             if (eventDto.Rows <= 0 || eventDto.TotalSeats <= 0)

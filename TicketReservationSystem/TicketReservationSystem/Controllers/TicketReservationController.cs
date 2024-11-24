@@ -18,7 +18,7 @@ namespace TicketReservationSystem.Controllers
             _eventService = eventService;
         }
         [HttpPost]
-        public ActionResult CreateEvent([FromBody] CreateEventDto request)
+        public ActionResult CreateEvent([FromBody] EventCreateDto request)
         {
             _eventService.CreateEventWithGeneratedSeats(request);
             return Ok();

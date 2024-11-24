@@ -17,10 +17,36 @@ namespace TicketReservationSystem
         {
             base.OnModelCreating(modelBuilder);
 
+            // Event properties
+
+            modelBuilder.Entity<Event>()
+                .Property(e => e.Name)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            modelBuilder.Entity<Event>()
+                .Property(e => e.Description)
+                .HasMaxLength(255);
+
+            modelBuilder.Entity<Event>()
+                .Property(e => e.TicketPrice)
+                .HasPrecision(7,2)
+                .IsRequired();
+
+            modelBuilder.Entity<Event>()
+                .Property(e => e.TotalSeats)
+                .IsRequired();
+
+            modelBuilder.Entity<Event>()
+                .Property(e => e.Rows)
+                .IsRequired();
+
+
             modelBuilder.Entity<User>()
                 .HasOne(u => u.Customer)
                 .WithOne(c => c.User)
                 .HasForeignKey<Customer>(c => c.UserId);
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

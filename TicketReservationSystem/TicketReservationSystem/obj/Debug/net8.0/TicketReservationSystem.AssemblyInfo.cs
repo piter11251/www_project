@@ -11,11 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("fbf68e41-99ef-471f-ad58-0b443e3dd639")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("8ff3f074-6205-4eb1-b6d8-ae2becf99a49")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketReservationSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+048e903bd3f92de06ee05254c4cdae2d02e87668")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+770a37c4e1192c9c6567a6949451f74f259c66aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicketReservationSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicketReservationSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

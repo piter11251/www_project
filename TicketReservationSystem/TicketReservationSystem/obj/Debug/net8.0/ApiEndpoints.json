@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "TicketReservationSystem.Controllers.AccountController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TicketReservationSystem.DTO.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TicketReservationSystem.Controllers.TicketReservationController",
     "Method": "CreateEvent",
     "RelativePath": "api/reservation",
@@ -9,7 +25,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "TicketReservationSystem.DTO.CreateEventDto",
+        "Type": "TicketReservationSystem.DTO.EventCreateDto",
         "IsRequired": true
       }
     ],

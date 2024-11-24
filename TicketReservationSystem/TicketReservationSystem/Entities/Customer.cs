@@ -3,10 +3,10 @@
     public class Customer
     {
         public int Id { get; set; }
-        public string UserId { get; set; }
-        public string FirstName { get; set; } = null!;
-        public string LastName { get; set; } = null!;
-        public string PhoneNumber { get; set; } = null!;
+        public int UserId { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? PhoneNumber { get; set; }
         public string? Address { get; set; }
         public DateTime? DateOfBirth { get; set; }
         // klient moze zarezerwować wiele miejsc na jednej rezerwacji
