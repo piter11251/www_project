@@ -292,3 +292,5 @@ C:\Users\admin\Documents\GitHub\www_project\TicketReservationSystem\TicketReserv
 C:\Users\admin\Documents\GitHub\www_project\TicketReservationSystem\TicketReservationSystem\obj\Debug\net8.0\TicketRe.57187403.Up2Date
 C:\Users\admin\Documents\GitHub\www_project\TicketReservationSystem\TicketReservationSystem\obj\Debug\net8.0\TicketReservationSystem.genruntimeconfig.cache
 C:\Users\admin\Documents\GitHub\www_project\TicketReservationSystem\TicketReservationSystem\obj\Debug\net8.0\ref\TicketReservationSystem.dll
+C:\Users\admin\Documents\GitHub\www_project\TicketReservationSystem\TicketReservationSystem\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\admin\Documents\GitHub\www_project\TicketReservationSystem\TicketReservationSystem\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

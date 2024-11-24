@@ -49,6 +49,7 @@ builder.Services.AddDbContext<TicketSystemDbContext>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(EventMapper));
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<ExceptionMiddleware>();
 builder.Services.AddScoped<IAccountService, AccountService>();

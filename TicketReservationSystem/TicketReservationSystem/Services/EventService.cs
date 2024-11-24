@@ -1,4 +1,5 @@
-﻿using Azure.Core;
+﻿using AutoMapper;
+using Azure.Core;
 using Microsoft.EntityFrameworkCore;
 using TicketReservationSystem.DTO;
 using TicketReservationSystem.Entities;
@@ -10,9 +11,11 @@ namespace TicketReservationSystem.Services
     public class EventService : IEventService
     {
         private readonly TicketSystemDbContext _context;
-        public EventService(TicketSystemDbContext ticketSystemDbContext)
+        private readonly IMapper _mapper;
+        public EventService(TicketSystemDbContext ticketSystemDbContext, IMapper mapper)
         {
             _context = ticketSystemDbContext;
+            _mapper = mapper;
         }
         public void CreateEventWithGeneratedSeats(EventCreateDto eventDto)
         {
@@ -22,14 +25,7 @@ namespace TicketReservationSystem.Services
                 throw new BadRequestException("Wiersze i/lub ilosc miejsc musza byc wieksze niz 0");
             }
 
-            var newEvent = new Event
-            {
-                Name = eventDto.Name,
-                Description = eventDto.Description,
-                TicketPrice = eventDto.TicketPrice,
-                TotalSeats = eventDto.TotalSeats,
-                Rows = eventDto.Rows
-            };
+            var newEvent = _mapper.Map<Event>(eventDto);
 
             if (eventDto.TotalSeats % eventDto.Rows == 0)
             {
@@ -83,6 +79,18 @@ namespace TicketReservationSystem.Services
             _context.SaveChanges();
         }
 
+        public void DeleteEvent(int id)
+        {
+            var eventName =_context.Events.FirstOrDefault(e => e.Id == id);
+            if(eventName == null)
+            {
+                throw new NotFoundException("This event doesn't exist");
+            }
+
+            _context.Events.Remove(eventName);
+            _context.SaveChanges();
+        }
+
         public EventDetailsDTO GetEventDetails(int id)
         {
             var eventDto = _context
@@ -95,13 +103,8 @@ namespace TicketReservationSystem.Services
                 throw new NotFoundException("Nie znaleziono eventu o podanym id");
             }
 
-            var result = new EventDetailsDTO
-            {
-                Name = eventDto.Name,
-                Description = eventDto.Description,
-                TicketPrice = eventDto.TicketPrice,
-                AvailableSeats = eventDto.Seats.Count(s => !s.IsReserved)
-            };
+            var result = _mapper.Map<EventDetailsDTO>(eventDto);
+            result.AvailableSeats = eventDto.Seats.Count(s => !s.IsReserved);
             return result;
         }
 
@@ -116,14 +119,23 @@ namespace TicketReservationSystem.Services
                 throw new NotFoundException("Nie mozna odznalezc szczegółów na temat miejsc dla eventu, który nie istnieje");
             }
 
-            var seatDetails = ev.Seats.Select(s => new SeatDTO
-            {
-                Row = s.Row,
-                SeatNumber = s.SeatNumber,
-                IsReserved = s.IsReserved,
-            }).ToList();
-
+            var seatDetails = _mapper.Map<List<SeatDTO>>(ev.Seats);
             return seatDetails;
+
+        }
+
+        public void ModifyEvent(int id, EventCreateDto dto)
+        {
+            var eventName = _context.Events.FirstOrDefault(e => e.Id == id);
+            if(eventName == null)
+            {
+                throw new NotFoundException("This event doesn't exist");
+            }
+
+            _mapper.Map(dto, eventName);
+
+            _context.Events.Update(eventName);
+            _context.SaveChanges();
         }
     }
 }

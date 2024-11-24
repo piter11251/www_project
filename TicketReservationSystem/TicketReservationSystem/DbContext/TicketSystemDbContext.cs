@@ -41,11 +41,19 @@ namespace TicketReservationSystem
                 .Property(e => e.Rows)
                 .IsRequired();
 
+            // User
+
 
             modelBuilder.Entity<User>()
                 .HasOne(u => u.Customer)
                 .WithOne(c => c.User)
                 .HasForeignKey<Customer>(c => c.UserId);
+
+            // Customer
+
+            modelBuilder.Entity<Customer>()
+                .Property(c => c.DateOfBirth)
+                .HasColumnType("date");
 
         }
 

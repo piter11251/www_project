@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Components.Forms;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -17,11 +18,13 @@ namespace TicketReservationSystem.Services
         private readonly TicketSystemDbContext _context;
         private readonly IPasswordHasher<User> _passwordHasher;
         private readonly AuthenticationSettings _authenticationSettings;
-        public AccountService(TicketSystemDbContext context, IPasswordHasher<User> passwordHasher, AuthenticationSettings authenticationSettings)
+        private readonly IMapper _mapper;
+        public AccountService(TicketSystemDbContext context, IPasswordHasher<User> passwordHasher, AuthenticationSettings authenticationSettings, IMapper mapper)
         {
             _context = context;
             _passwordHasher = passwordHasher;
             _authenticationSettings = authenticationSettings;
+            _mapper = mapper;
         }
 
 
@@ -94,11 +97,7 @@ namespace TicketReservationSystem.Services
                 throw new KeyNotFoundException("Nie znaleziono danych użytkownika.");
             }
 
-            customer.FirstName = dto.FirstName;
-            customer.LastName = dto.LastName;
-            customer.PhoneNumber = dto.PhoneNumber;
-            customer.Address = dto.Address;
-            customer.DateOfBirth = dto.DateOfBirth;
+            _mapper.Map(dto, customer);
 
             _context.Customers.Update(customer);
             _context.SaveChanges();

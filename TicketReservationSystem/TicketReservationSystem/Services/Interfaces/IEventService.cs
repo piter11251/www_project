@@ -7,5 +7,7 @@ namespace TicketReservationSystem.Services.Interfaces
         void CreateEventWithGeneratedSeats(EventCreateDto eventDto);
         EventDetailsDTO GetEventDetails(int id);
         ICollection<SeatDTO> GetSeats(int id);
+        void DeleteEvent(int id);
+        void ModifyEvent(int id, EventCreateDto dto);
     }
 }

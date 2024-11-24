@@ -16,6 +16,7 @@ namespace TicketReservationSystem.Entities
         public int TotalSeats { get; set; }
         [Required]
         public int Rows { get; set; }
+        public bool AgeRestrictions { get; set; }
         public ICollection<Seat> Seats { get; set; } = new List<Seat>();
         public ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
         public int AvailableSeats => Seats.Count(s => !s.IsReserved);

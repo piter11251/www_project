@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TicketReservationSystem.DTO;
 using TicketReservationSystem.Services.Interfaces;
 
@@ -27,7 +28,7 @@ namespace TicketReservationSystem.Controllers
             string token = _accountService.GenerateJwt(dto);
             return Ok(token);
         }
-
+        [Authorize]
         [HttpPut("complete-data")]
         public ActionResult CompleteData([FromBody] CustomerDataDto dto)
         {
