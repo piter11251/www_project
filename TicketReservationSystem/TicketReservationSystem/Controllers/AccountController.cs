@@ -24,7 +24,16 @@ namespace TicketReservationSystem.Controllers
         [HttpPost("login")]
         public ActionResult Login([FromBody] LoginDto dto)
         {
+            string token = _accountService.GenerateJwt(dto);
+            return Ok(token);
+        }
 
+        [HttpPut("complete-data")]
+        public ActionResult CompleteData([FromBody] CustomerDataDto dto)
+        {
+            var user = User;
+            _accountService.CompleteData(dto, user);
+            return Ok();
         }
     }
 }

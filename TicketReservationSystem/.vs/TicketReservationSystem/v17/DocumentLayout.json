@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\dto\\customerdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\dto\\customerdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\authenticationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\authenticationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\controllers\\ticketreservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\controllers\\ticketreservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\dto\\validators\\eventcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\controllers\\ticketreservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\controllers\\ticketreservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\dto\\eventdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,18 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\migrations\\20241123233826_editedcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\migrations\\20241123233826_editedcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|solutionrelative:ticketreservationsystem\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D70C894-8BE7-4B2D-BE70-ECFE4A2FBE1F}|TicketReservationSystem\\TicketReservationSystem.csproj|c:\\users\\admin\\documents\\github\\www_project\\ticketreservationsystem\\ticketreservationsystem\\migrations\\20241123225609_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,44 +95,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\LoginDto.cs",
-              "RelativeDocumentMoniker": "TicketReservationSystem\\DTO\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\LoginDto.cs",
-              "RelativeToolTip": "TicketReservationSystem\\DTO\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "CustomerDataDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\CustomerDataDto.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\DTO\\CustomerDataDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\CustomerDataDto.cs",
+              "RelativeToolTip": "TicketReservationSystem\\DTO\\CustomerDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:45:21.728Z",
+              "WhenOpened": "2024-11-24T13:56:42.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Program.cs",
-              "RelativeDocumentMoniker": "TicketReservationSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Program.cs",
-              "RelativeToolTip": "TicketReservationSystem\\Program.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEgAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Entities\\Customer.cs",
+              "RelativeToolTip": "TicketReservationSystem\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T23:14:52.199Z"
+              "WhenOpened": "2024-11-23T23:34:07.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "TicketReservationSystem\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "TicketReservationSystem\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxgAAAAcAAAAAAAAAA==",
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\AccountService.cs",
+              "RelativeToolTip": "TicketReservationSystem\\Services\\AccountService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwFgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T23:26:49.18Z",
+              "WhenOpened": "2024-11-23T23:16:53.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AuthenticationSettings.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\AuthenticationSettings.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\AuthenticationSettings.cs",
@@ -132,23 +141,103 @@
               "RelativeToolTip": "TicketReservationSystem\\AuthenticationSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:34:53.274Z"
+              "WhenOpened": "2024-11-24T12:34:53.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TicketReservationSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:26:49.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TicketReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Controllers\\TicketReservationController.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\Controllers\\TicketReservationController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Controllers\\TicketReservationController.cs",
+              "RelativeToolTip": "TicketReservationSystem\\Controllers\\TicketReservationController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:15:55.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\Services\\Interfaces\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeToolTip": "TicketReservationSystem\\Services\\Interfaces\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:16:39.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\appsettings.json",
               "RelativeDocumentMoniker": "TicketReservationSystem\\appsettings.json",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\appsettings.json",
               "RelativeToolTip": "TicketReservationSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-24T12:32:52.359Z"
+              "WhenOpened": "2024-11-24T12:32:52.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "TicketReservationSystem\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T13:00:34.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Program.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Program.cs",
+              "RelativeToolTip": "TicketReservationSystem\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:14:52.199Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "TicketReservationSystem\\DTO\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "TicketReservationSystem\\DTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:45:21.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "EventDetailsDTO.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\EventDetailsDTO.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\DTO\\EventDetailsDTO.cs",
@@ -160,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "EventCreateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\Validators\\EventCreateDtoValidator.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\DTO\\Validators\\EventCreateDtoValidator.cs",
@@ -172,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "EventCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\EventCreateDto.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\DTO\\EventCreateDto.cs",
@@ -184,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "EventService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\EventService.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\Services\\EventService.cs",
@@ -196,19 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TicketReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Controllers\\TicketReservationController.cs",
-              "RelativeDocumentMoniker": "TicketReservationSystem\\Controllers\\TicketReservationController.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Controllers\\TicketReservationController.cs",
-              "RelativeToolTip": "TicketReservationSystem\\Controllers\\TicketReservationController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:15:55.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DTO\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\DTO\\RegisterUserDto.cs",
@@ -220,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "20241123233826_EditedCustomer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Migrations\\20241123233826_EditedCustomer.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\Migrations\\20241123233826_EditedCustomer.cs",
@@ -232,43 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "TicketReservationSystem\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Entities\\Customer.cs",
-              "RelativeToolTip": "TicketReservationSystem\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T23:34:07.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "TicketReservationSystem\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\AccountService.cs",
-              "RelativeToolTip": "TicketReservationSystem\\Services\\AccountService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T23:16:53.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\Interfaces\\IAccountService.cs",
-              "RelativeDocumentMoniker": "TicketReservationSystem\\Services\\Interfaces\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Services\\Interfaces\\IAccountService.cs",
-              "RelativeToolTip": "TicketReservationSystem\\Services\\Interfaces\\IAccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T23:16:39.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Entities\\Event.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\Entities\\Event.cs",
@@ -280,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20241123225609_Init.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\Migrations\\20241123225609_Init.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\Migrations\\20241123225609_Init.cs",
@@ -292,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "TicketSystemDbContext.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\www_project\\TicketReservationSystem\\TicketReservationSystem\\DbContext\\TicketSystemDbContext.cs",
               "RelativeDocumentMoniker": "TicketReservationSystem\\DbContext\\TicketSystemDbContext.cs",
