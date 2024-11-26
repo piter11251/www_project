@@ -6,7 +6,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using TicketReservationSystem.DTO;
+using TicketReservationSystem.DTO.AccountDto;
+using TicketReservationSystem.DTO.CustomerDto;
 using TicketReservationSystem.Entities;
 using TicketReservationSystem.Exceptions;
 using TicketReservationSystem.Services.Interfaces;
@@ -83,18 +84,18 @@ namespace TicketReservationSystem.Services
             var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (userIdClaim == null)
             {
-                throw new UnauthorizedAccessException("Nie znaleziono identyfikatora użytkownika w tokenie.");
+                throw new UnauthorizedAccessException("Cannot find user identifier in token");
             }
 
             if (!int.TryParse(userIdClaim, out int userId))
             {
-                throw new ArgumentException("Identyfikator użytkownika w tokenie jest nieprawidłowy.");
+                throw new ArgumentException("User identifier in token is invalid");
             }
 
             var customer = _context.Customers.FirstOrDefault(c => c.UserId == userId);
             if (customer == null)
             {
-                throw new KeyNotFoundException("Nie znaleziono danych użytkownika.");
+                throw new KeyNotFoundException("Cannot find customer info");
             }
 
             _mapper.Map(dto, customer);

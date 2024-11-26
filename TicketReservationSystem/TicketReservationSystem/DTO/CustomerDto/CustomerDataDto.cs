@@ -1,4 +1,4 @@
-﻿namespace TicketReservationSystem.DTO
+﻿namespace TicketReservationSystem.DTO.CustomerDto
 {
     public class CustomerDataDto
     {

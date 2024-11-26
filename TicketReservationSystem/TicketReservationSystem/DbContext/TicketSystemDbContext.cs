@@ -55,6 +55,7 @@ namespace TicketReservationSystem
                 .Property(c => c.DateOfBirth)
                 .HasColumnType("date");
 
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

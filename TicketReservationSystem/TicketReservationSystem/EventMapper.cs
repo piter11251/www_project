@@ -1,5 +1,8 @@
 ﻿using AutoMapper;
-using TicketReservationSystem.DTO;
+using TicketReservationSystem.DTO.CustomerDto;
+using TicketReservationSystem.DTO.EventDto;
+using TicketReservationSystem.DTO.PaymentDto;
+using TicketReservationSystem.DTO.SeatDto;
 using TicketReservationSystem.Entities;
 
 namespace TicketReservationSystem
@@ -23,6 +26,9 @@ namespace TicketReservationSystem
 
             CreateMap<CustomerDataDto, Customer>()
                 .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth.Date));
+
+            CreateMap<PaymentDto, Payment>()
+                .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
         }
     }
 }

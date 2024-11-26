@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
 using Azure.Core;
 using Microsoft.EntityFrameworkCore;
-using TicketReservationSystem.DTO;
+using TicketReservationSystem.DTO.EventDto;
+using TicketReservationSystem.DTO.SeatDto;
 using TicketReservationSystem.Entities;
 using TicketReservationSystem.Exceptions;
 using TicketReservationSystem.Services.Interfaces;
@@ -22,7 +23,7 @@ namespace TicketReservationSystem.Services
 
             if (eventDto.Rows <= 0 || eventDto.TotalSeats <= 0)
             {
-                throw new BadRequestException("Wiersze i/lub ilosc miejsc musza byc wieksze niz 0");
+                throw new BadRequestException("Rows/total seats must be greater than 0");
             }
 
             var newEvent = _mapper.Map<Event>(eventDto);
@@ -100,7 +101,7 @@ namespace TicketReservationSystem.Services
 
             if(eventDto == null)
             {
-                throw new NotFoundException("Nie znaleziono eventu o podanym id");
+                throw new NotFoundException("Cannot found that event");
             }
 
             var result = _mapper.Map<EventDetailsDTO>(eventDto);
@@ -116,7 +117,7 @@ namespace TicketReservationSystem.Services
 
             if (ev == null)
             {
-                throw new NotFoundException("Nie mozna odznalezc szczegółów na temat miejsc dla eventu, który nie istnieje");
+                throw new NotFoundException("Cannot find details about event that doesn't exist");
             }
 
             var seatDetails = _mapper.Map<List<SeatDTO>>(ev.Seats);

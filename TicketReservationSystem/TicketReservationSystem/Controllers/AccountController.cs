@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using TicketReservationSystem.DTO;
+using TicketReservationSystem.DTO.AccountDto;
+using TicketReservationSystem.DTO.CustomerDto;
 using TicketReservationSystem.Services.Interfaces;
 
 namespace TicketReservationSystem.Controllers

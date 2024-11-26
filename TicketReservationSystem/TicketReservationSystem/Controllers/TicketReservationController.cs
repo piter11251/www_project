@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TicketReservationSystem.DTO;
+using TicketReservationSystem.DTO.EventDto;
+using TicketReservationSystem.DTO.SeatDto;
 using TicketReservationSystem.Entities;
 using TicketReservationSystem.Services.Interfaces;
 

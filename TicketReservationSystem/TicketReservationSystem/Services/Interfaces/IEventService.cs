@@ -1,4 +1,5 @@
-﻿using TicketReservationSystem.DTO;
+﻿using TicketReservationSystem.DTO.EventDto;
+using TicketReservationSystem.DTO.SeatDto;
 
 namespace TicketReservationSystem.Services.Interfaces
 {

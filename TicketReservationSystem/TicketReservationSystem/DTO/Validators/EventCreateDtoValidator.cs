@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using TicketReservationSystem.DTO.EventDto;
 
 namespace TicketReservationSystem.DTO.Validators
 {

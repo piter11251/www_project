@@ -1,5 +1,6 @@
 ﻿using System.Security.Claims;
-using TicketReservationSystem.DTO;
+using TicketReservationSystem.DTO.AccountDto;
+using TicketReservationSystem.DTO.CustomerDto;
 
 namespace TicketReservationSystem.Services.Interfaces
 {

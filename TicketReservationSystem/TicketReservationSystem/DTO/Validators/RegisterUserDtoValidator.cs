@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using TicketReservationSystem.DTO.AccountDto;
 
 namespace TicketReservationSystem.DTO.Validators
 {

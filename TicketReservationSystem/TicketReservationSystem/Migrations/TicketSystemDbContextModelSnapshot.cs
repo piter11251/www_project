@@ -71,6 +71,9 @@ namespace TicketReservationSystem.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<DateTime>("EventDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -102,13 +105,11 @@ namespace TicketReservationSystem.Migrations
                     b.Property<DateTime>("PaymentDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("PaymentMethod")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("PaymentMethod")
+                        .HasColumnType("int");
 
-                    b.Property<string>("PaymentStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("PaymentStatus")
+                        .HasColumnType("int");
 
                     b.Property<int>("ReservationId")
                         .HasColumnType("int");
@@ -224,11 +225,13 @@ namespace TicketReservationSystem.Migrations
 
             modelBuilder.Entity("TicketReservationSystem.Entities.Payment", b =>
                 {
-                    b.HasOne("TicketReservationSystem.Entities.Reservation", null)
+                    b.HasOne("TicketReservationSystem.Entities.Reservation", "Reservation")
                         .WithOne("Payment")
                         .HasForeignKey("TicketReservationSystem.Entities.Payment", "ReservationId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Reservation");
                 });
 
             modelBuilder.Entity("TicketReservationSystem.Entities.Reservation", b =>

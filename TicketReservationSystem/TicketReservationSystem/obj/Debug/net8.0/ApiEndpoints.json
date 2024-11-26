@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "TicketReservationSystem.DTO.CustomerDataDto",
+        "Type": "TicketReservationSystem.DTO.CustomerDto.CustomerDataDto",
         "IsRequired": true
       }
     ],
@@ -25,7 +25,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "TicketReservationSystem.DTO.LoginDto",
+        "Type": "TicketReservationSystem.DTO.AccountDto.LoginDto",
         "IsRequired": true
       }
     ],
@@ -41,7 +41,39 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "TicketReservationSystem.DTO.RegisterUserDto",
+        "Type": "TicketReservationSystem.DTO.AccountDto.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.PaymentController",
+    "Method": "CompletePayment",
+    "RelativePath": "api/payment/complete-payment",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TicketReservationSystem.DTO.PaymentDto.PaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.PaymentController",
+    "Method": "InitiatePayment",
+    "RelativePath": "api/payment/initiate-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TicketReservationSystem.DTO.PaymentDto.PaymentDto",
         "IsRequired": true
       }
     ],
@@ -57,7 +89,23 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "TicketReservationSystem.DTO.EventCreateDto",
+        "Type": "TicketReservationSystem.DTO.EventDto.EventCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.TicketReservationController",
+    "Method": "DeleteEvent",
+    "RelativePath": "api/reservation/{id}/delete-event",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -79,7 +127,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "TicketReservationSystem.DTO.EventDetailsDTO",
+        "Type": "TicketReservationSystem.DTO.EventDto.EventDetailsDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -88,6 +136,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.TicketReservationController",
+    "Method": "ModifyEvent",
+    "RelativePath": "api/reservation/{id}/modify-event",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "TicketReservationSystem.Controllers.TicketReservationController",
@@ -105,7 +169,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.ICollection\u00601[[TicketReservationSystem.DTO.SeatDTO, TicketReservationSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.ICollection\u00601[[TicketReservationSystem.DTO.SeatDto.SeatDTO, TicketReservationSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -114,5 +178,63 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.ReservationController",
+    "Method": "CreateReservation",
+    "RelativePath": "api/reservations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TicketReservationSystem.DTO.ReservationDto.ReservationCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.ReservationController",
+    "Method": "CancelReservation",
+    "RelativePath": "api/reservations",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservationNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.ReservationController",
+    "Method": "ModifyReservation",
+    "RelativePath": "api/reservations",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TicketReservationSystem.DTO.ReservationDto.ReservationModifyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketReservationSystem.Controllers.ReservationController",
+    "Method": "GetReservations",
+    "RelativePath": "api/reservations/get-reservations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
